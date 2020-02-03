@@ -1,0 +1,288 @@
+@media (max-width: 1200px) {
+    .about_us h2 {
+        font-size: 28px;
+    }
+}
+
+@media (max-width: 992px) {
+
+
+    .icons h2 {
+        font-size: 22px;
+    }
+    .services_table {
+        padding-top: 40px;
+    }
+    .brands li {
+        padding: 0 10px;
+    }
+    .about_us h3{
+        font-size: 16px;
+    }
+    .about_us h2 {
+        font-size: 22px;
+    }
+    .about_us h2:before {
+        top: 55px;
+    }
+    .about_list, .about_text {
+        font-size: 14px;
+    }
+
+}
+
+@media (max-width: 798px) {
+    .mob_menu_button {
+        display: block;
+    }
+    .list_items {
+        display: none;
+    }
+    .list_item{
+        font-size: 12px;
+        margin-right: 10px;
+    }
+    .logo {
+        font-size: 16px;
+    }
+    .header-title {
+        font-size: 28px;
+    }
+    .header_content p {
+        font-size: 12px;
+    }
+    .arrow {
+        width: 32px;
+        height: 32px;
+        font-size: 12px;
+    }
+    .brands li {
+        padding: 0 5px;
+    }
+    .filters {
+        padding: 30px 0;
+        font-size: 14px;
+    }
+    .filters h2, .filters p {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 576px) {
+
+
+    .team_box .box {
+        width: 80px !important;
+        height: auto;
+    }
+    .list_item {
+        font-size: 10px;
+    }
+
+    .header-title {
+        font-size: 25px;
+    }
+
+
+    .about_us h2 {
+        font-size: 20px;
+    }
+
+    .about_us h3 {
+        font-size: 12px;
+    }
+
+    .about_text {
+        font-size: 12px;
+    }
+
+    .about_list {
+        font-size: 10px;
+    }
+
+    .about_button {
+        padding: 5px;
+    }
+
+    .about_us h2:before {
+        top: 50px;
+    }
+
+    .title {
+        font-size: 19px;
+    }
+
+    .title:before {
+        bottom: -5px;
+        height: 3px;
+    }
+
+    .title:after {
+        bottom: -12px;
+        height: 3px;
+    }
+
+    .team {
+        padding: 50px 0 0;
+    }
+    .box img {
+
+
+
+    }
+    .actor h2 {
+        font-size: 16px;
+        padding: 15px 0 0;
+    }
+    .actor p, .actor h5 {
+        font-size: 12px;
+        padding-bottom: 10px;
+    }
+    .title_text {
+        font-size: 12px;
+    }
+    .icons h2 {
+        font-size: 16px;
+        padding-top: 20px;
+    }
+    .icons h5 {
+        font-size: 12px;
+        margin-bottom: 20px;
+    }
+    .services_table {
+        padding-top: 30px;
+    }
+    .filters {
+        padding: 10px;
+        font-size: 10px;
+    }
+    .filters h2, .filters p {
+        font-size: 10px;
+    }
+    .filter_right a{
+        margin: 0 10px;
+    }
+    .line {
+        width: 3px;
+        margin: 0 -4px;
+    }
+    .testimonials_text {
+        margin-top: 30px;
+        font-size: 12px;
+    }
+    .copyright {
+        font-size: 10px;
+    }
+    .brands {
+        margin-top: 50px;
+    }
+    .brands li {
+        padding: 0 4px;
+    }
+}
+@media (max-width: 250px) {
+    .team_box .box {
+        width: 50px !important;
+        height: auto;
+    }
+    .list_item {
+        font-size: 5px;
+    }
+
+    .header-title {
+        font-size: 15px;
+    }
+
+
+    .about_us h2 {
+        font-size: 10px;
+    }
+
+    .about_us h3 {
+        font-size: 6px;
+    }
+
+    .about_text {
+        font-size: 6px;
+    }
+
+    .about_list {
+        font-size: 5px;
+    }
+
+    .about_button {
+        padding: 3px;
+    }
+
+    .about_us h2:before {
+        top: 30px;
+    }
+
+    .title {
+        font-size: 10px;
+    }
+
+    .title:before {
+        bottom: -3px;
+        height: 2px;
+    }
+
+    .title:after {
+        bottom: -16px;
+        height: 2px;
+    }
+
+    .team {
+        padding: 50px 0 0;
+    }
+
+    .actor h2 {
+        font-size: 8px;
+        padding: 15px 0 0;
+    }
+    .actor p, .actor h5 {
+        font-size: 6px;
+        padding-bottom: 5px;
+    }
+    .title_text {
+        font-size: 6px;
+    }
+    .icons h2 {
+        font-size: 8px;
+        padding-top: 10px;
+    }
+    .icons h5 {
+        font-size: 6px;
+        margin-bottom: 10px;
+    }
+    .services_table {
+        padding-top: 15px;
+    }
+    .filters {
+        padding: 5px;
+        font-size: 5px;
+    }
+    .filters h2, .filters p {
+        font-size: 5px;
+    }
+    .filter_right a{
+        margin: 0 10px;
+    }
+    .line {
+        width: 2px;
+        margin: 0 -4px;
+    }
+    .testimonials_text {
+        margin-top: 15px;
+        font-size: 6px;
+    }
+    .copyright {
+        font-size: 5px;
+    }
+    .brands {
+        margin-top: 25px;
+    }
+    .brands li {
+        padding: 0 4px;
+    }
+}
