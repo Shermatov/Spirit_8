@@ -158,7 +158,7 @@ header {
 
 .header-title span {
     color: #fcac45;
-    font-weight: 700;
+    font-weight: 400;
 }
 
 .header_content {
@@ -259,7 +259,10 @@ header {
     margin-top: 20px;
     transition: all 0.5s;
 }
-
+.about_button:hover{
+    background: darkgreen;
+    color:white;
+}
 
 /***************TEAM******************/
 
