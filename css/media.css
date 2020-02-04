@@ -69,11 +69,19 @@
 }
 
 @media (max-width: 576px) {
+    .mac{
+        width: 450px;
+        height: 400px;
+        text-align: center;
+    }
+    #team_carousel{
+        display: inline-block;
+    }
 
 
     .team_box .box {
-        width: 80px !important;
-        height: auto;
+        width: 700px ;
+        height: 150px;
     }
     .list_item {
         font-size: 10px;

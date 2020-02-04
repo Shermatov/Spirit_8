@@ -3,6 +3,7 @@ html{
 }
 body {
     font-family: 'Open Sans', sans-serif;
+    overflow-x: hidden;
 }
 
 /**********Header*********/
@@ -19,7 +20,7 @@ a, a:hover {
 header {
     position: absolute;
     width: 100%;
-    top: 48px;
+    margin-top: 57px;
 }
 
 
@@ -44,21 +45,26 @@ header {
 }
 
 .logo {
-    font-size: 24px;
+
+    font-size: 21px;
     z-index: 9;
+    font-weight:600 ;
+
 }
 
 .list_items {
     display: flex;
     margin: 0;
     z-index: 9;
+
 }
 
 .list_item {
     font-size: 14px;
-    margin-right: 34px;
+    margin-right: 27px;
 
 }
+
 
 .list_item:last-child {
     margin-right: 0;
@@ -90,14 +96,15 @@ header {
 .hover {
     transition: all 0.2s ease-in-out;
     position: relative;
+
 }
 
 .hover:before, .hover:after {
     content: "";
     position: absolute;
-    bottom: -10px;
+    bottom: -21px;
     width: 0;
-    height: 5px;
+    height: 3px;
     margin: 5px 0 0;
     transition: all 0.2s ease-in-out;
     transition-duration: 0.25s;
@@ -140,25 +147,28 @@ header {
 #header {
     position: relative;
     display: flex;
-    height: 100vh;
-    background: #222222;
+    height: 790px;
+    background: #111111;
+
 }
 
 .header-title {
     text-transform: uppercase;
     color: #999;
-    font-size: 44px;
-    font-weight: 300;
+    font-size: 37px;
+    font-weight: 400;
 }
 
 .header_content p {
     color: #d5d5d5;
     font-weight: 400;
+    font-size: 15px;
 }
 
 .header-title span {
     color: #fcac45;
     font-weight: 400;
+
 }
 
 .header_content {
@@ -166,24 +176,31 @@ header {
     text-align: center;
     z-index: 9;
 }
+.center_title{
+    font-weight: 400;
+    font-size: 20px ;
 
+}
+.header-title,.center_title{
+
+}
 .header_content p span {
-    font-weight: 700;
+    font-weight: 400;
 }
 
 .arrow {
     position: absolute;
     padding: 12px 13px;
-    border: 3px solid #ababab;
+    border: 2px solid #ababab;
     border-radius: 50%;
-    font-size: 24px;
+    font-size: 12px;
     transition: all 0.5s;
     color: #ababab;
     left: 0;
     right: 0;
     margin: auto;
-    width: 52px;
-    height: 52px;
+    width: 46px;
+    height: 46px;
     bottom: 10%;
     display: flex;
     justify-content: center;
@@ -192,20 +209,35 @@ header {
 
 .arrow a i {
     position: absolute;
-    left: -3px;
-    top: -3px;
+    left: -2px;
+    top: -2px;
     padding: 13px;
 }
-
-/******ABOUT******/
-
-.about {
-    padding-right: 50px;
+.arrow:hover{
+    background: #fcac45;
+    color:  #ffffff;
 }
 
+    /******ABOUT******/
+
+#about{
+    height: 610px;
+}
+.about {
+    padding-right: 50px;
+
+
+}
+.mac{
+    background: url("../images/mac.png"),no-repeat;
+    background-size: cover;
+    width: 300px;
+    height: 67vh;
+
+}
 .about_us h3, .about_us h2 {
     text-transform: uppercase;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 400;
     color: #636363;
 }
@@ -213,6 +245,7 @@ header {
 .about_us h2 {
     font-size: 34px;
     color: #222222;
+    margin-top: 20px;
 }
 
 .about_us span {
@@ -225,7 +258,8 @@ header {
     width: 100px;
     height: 5px;
     background-color: #fcac45;
-    top: 40px;
+    margin-top: 70px;
+
 }
 
 .about_text {
@@ -233,7 +267,7 @@ header {
     font-weight: 400;
     text-transform: none;
     color: #5a5a5a;
-    padding-top: 30px;
+    padding-top: 56px;
 }
 
 .about_list span {
@@ -245,6 +279,9 @@ header {
 .about_list p {
     font-style: italic;
     color: #5a5a5a;
+}
+.about_list{
+    margin-left: -50px;
 }
 
 .about_button {
@@ -260,8 +297,8 @@ header {
     transition: all 0.5s;
 }
 .about_button:hover{
-    background: darkgreen;
-    color:white;
+    background: #fcac45;
+    color:  #ffffff;
 }
 
 /***************TEAM******************/
@@ -272,13 +309,17 @@ header {
     padding: 80px 0;
 
 }
+#team_carousel{
+    display: flex;
+}
 
 
 .team_box .box {
     display: unset !important;
-    width: 130px!important;
-    height: 130px;
+    width: 110px!important;
+    height: 110px;
     border-radius: 50%;
+
 }
 
 .title h2 {
@@ -328,6 +369,7 @@ header {
 .team_box {
     padding: 136px 0 0;
     text-align: center;
+    margin-right: 50px;
 }
 
 .actor p, .actor h5 {
@@ -662,8 +704,8 @@ li{
 }
 
 .contact_button:hover {
-    background: #222222;
-    color: #fcac45;
+    background: #ff9234;
+    color: #ffffff;
 }
 .contact_text span {
     color: red;
@@ -717,9 +759,16 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
+
 }
 .footer_links li{
-    margin: 5px;
+    margin: 3px;
+}
+.footer_link:hover{
+    background: #fcac45;
+    color:  #ffffff;
+    border-radius: 50% ;
+
 }
 
 /*** menu ***/
