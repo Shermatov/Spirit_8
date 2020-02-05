@@ -61,7 +61,7 @@ header {
 
 .list_item {
     font-size: 14px;
-    margin-right: 27px;
+    margin-right: 16px;
 
 }
 
@@ -175,6 +175,7 @@ header {
     margin: auto;
     text-align: center;
     z-index: 9;
+    margin-top: 300px;
 }
 .center_title{
     font-weight: 400;
@@ -221,81 +222,62 @@ header {
     /******ABOUT******/
 
 #about{
-    height: 610px;
+    padding: 100px 0 100px 0 ;
+    background: #fff;
+    font-family: 'Open Sans', sans-serif;
 }
-.about {
-    padding-right: 50px;
-
-
-}
-.mac{
-    background: url("../images/mac.png"),no-repeat;
-    background-size: cover;
-    width: 300px;
-    height: 67vh;
-
-}
-.about_us h3, .about_us h2 {
-    text-transform: uppercase;
-    font-size: 18px;
-    font-weight: 400;
+.about_us{
     color: #636363;
-}
-
-.about_us h2 {
-    font-size: 34px;
-    color: #222222;
-    margin-top: 20px;
-}
-
-.about_us span {
-    font-weight: 800;
-}
-
-.about_us h2:before {
-    position: absolute;
-    content: '';
-    width: 100px;
-    height: 5px;
-    background-color: #fcac45;
-    margin-top: 70px;
-
-}
-
-.about_text {
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 400;
-    text-transform: none;
-    color: #5a5a5a;
-    padding-top: 56px;
+    text-transform: uppercase;
 }
-
-.about_list span {
-    font-weight: 600;
-    font-style: normal;
-    color: #5a5a5a;
+.about-us__title{
+    position: relative;
+    font-size: 34px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin: 20px 0 60px 0;
 }
-
-.about_list p {
-    font-style: italic;
-    color: #5a5a5a;
+.about-us__title:before{
+    content: '';
+    position: absolute;
+    width: 100px;
+    height: 4px;
+    background: #fcac45;
+    bottom: -20px;
+}
+.about-us__title span{
+    font-weight: 700;
+}
+.about-us__title_description{
+    font-size: 18px;
+    color: #6c6c6c;
+    text-transform: initial;
 }
 .about_list{
-    margin-left: -50px;
+    font-family: 'Open Sans', sans-serif;
+    color: #6c6c6c;
+    font-size: 16px;
+    margin-left: -60px;
+    text-transform: initial;
+
+}
+.about_button{
+    display: inline-block;
+    width: 195px;
+    height: 45px;
+    border: 1px solid #6c6c6c;
+    border-radius: 0;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 600;
+    color: #6c6c6c;
+    transition: .3s;
+    padding: 13px 24px;
 }
 
-.about_button {
-    display: inline-block;
-    padding: 10px 18px;
-    background: #fff;
-    border: 1px solid #7f7f7f;
-    border-radius: 5px;
-    text-transform: uppercase;
-    font-weight: 600;
-    color: #616161;
-    margin-top: 20px;
-    transition: all 0.5s;
-}
+
 .about_button:hover{
     background: #fcac45;
     color:  #ffffff;
@@ -367,9 +349,9 @@ header {
 }
 
 .team_box {
-    padding: 136px 0 0;
+    padding: 136px 0 60px;
     text-align: center;
-    margin-right: 50px;
+    margin-right:8px;
 }
 
 .actor p, .actor h5 {
@@ -486,16 +468,19 @@ li{
 
 .tabs input{
     display: none;
+
 }
 
 .tab {
     display: none;
+    clear: both;
 }
 #tab1:checked ~ .tab1,
 #tab2:checked ~ .tab2,
 #tab3:checked ~ .tab3,
 #tab4:checked ~ .tab4{
     display: block;
+
 }
 .tabs input:checked + label{
     color: red;
@@ -509,14 +494,20 @@ li{
 
 
 }
+.tabs input,label{
+    float: right;
+}
 .tab_input:first-child{
     margin-left: 10px;
+
 }
 .tab_input :hover{
     color: #fcac45;
 
 }
-
+.tabs .label{
+    float: left;
+}
 .posters .box1 {
     position: relative;
     background-image: url("../images/poster1.png");
@@ -569,7 +560,7 @@ li{
     color: #fff;
     text-transform: uppercase;
     font-size: 20px;
-    padding-top: 67px;
+    padding-top: 55 px;
     font-weight: 600;
 }
 .posters .box_text p {
@@ -715,6 +706,7 @@ li{
 }
 .contact_text {
     margin-bottom: 0 !important;
+    float: left;
 }
 .contact_form {
     font-size: 14px;
