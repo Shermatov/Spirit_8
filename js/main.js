@@ -21,23 +21,6 @@ $('.list-item a').on('click', function () {
 });
 
 
-// $('#team_carousel').owlCarousel({
-//     navigation: false,
-//     slideSpeed: 300,
-//     paginationSpeed: 400,
-//     loop:true,
-//     autoHeight: true,
-//     itemsCustom: [
-//         [0, 1],
-//         [450, 2],
-//         [600, 2],
-//         [700, 2],
-//         [1000, 4],
-//         [1200, 4],
-//         [1400, 4],
-//         [1600, 4]
-//     ],
-// });
 
 $('.clients_list ').owlCarousel({
     loop:true,
